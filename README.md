@@ -1,16 +1,19 @@
-# flutter_fractalup_1
+# Reto Técnico FractalUp - Flutter App 🚀
 
-A new Flutter project.
+Solución al reto para la posición de **Programador FrontEnd**.  persistencia de datos local y navegación avanzada.
 
-## Getting Started
+📄 Documentación :
+ [Ver Documento Completo en Google Docs](https://docs.google.com/document/d/1cIu0hOC8MkddStjx1oJrWA0vXoc6c9PL_6SVO91VXsU/edit?usp=sharing)
 
-This project is a starting point for a Flutter application.
+## 🛠️ Stack Tecnológico
+* **Gestión de Estado:** `flutter_riverpod` (Reactividad en tiempo real).
+* **Persistencia:** `drift` & `sqlite3` (CRUD local seguro).
+* **Navegación:** `go_router` (Manejo de rutas y Deep Links `/detail/:id`).
+* **Generación de Código:** `build_runner`.
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Ejecución Rápida
+1.  **Clonar:** `git clone https://github.com/Tomas-coder-dev/Reto-FractalUP.git`
+2.  **Instalar:** `flutter pub get`
+3.  **Correr:** `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Nota: Para probar la persistencia SQLite, ejecutar en Emulador Android o Escritorio.*
