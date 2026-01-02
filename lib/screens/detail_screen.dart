@@ -26,7 +26,7 @@ class DetailScreen extends StatelessWidget {
               icon: const Icon(Icons.arrow_back),
               label: const Text('Volver al Inicio'),
               onPressed: () {
-                // Si llegaste por Deep Link directo, esto te lleva al Home
+
                 if (context.canPop()) {
                   context.pop();
                 } else {
